@@ -1,0 +1,10 @@
+{
+    "name": "zaidhassan-message-database",
+    "domain": false,
+    "hostname": "zaidhassan-message-database",
+    "image": "postgres:12",
+    "env": {
+      "POSTGRES_PASSWORD": "@zaidhassan-postgres-password"
+    },
+    "volumes": ["zaidhassan_message_database_volume:/var/lib/postgresql/data"]
+  }
